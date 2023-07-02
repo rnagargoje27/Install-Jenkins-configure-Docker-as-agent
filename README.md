@@ -1,2 +1,6 @@
 # NewRepository
-this is first repository
+public class NewRepository{
+    public static void main(string [] args){
+    system.out.println("this is first repository");
+    }
+    }

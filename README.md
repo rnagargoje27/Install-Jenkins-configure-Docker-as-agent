@@ -38,7 +38,8 @@ EC2 > Instances > Click on
 In the bottom tabs -> Click on Security
 Security groups
 Add inbound traffic rules as shown in the image (you can just allow TCP 8080 as well, in my case, I allowed All traffic).
-Screenshot 2023-02-01 at 12 42 01 PM
+![image](https://github.com/rnagargoje27/NewRepository/assets/138219884/bc89c363-b7d6-422e-96d0-252eb3c89127)
+
 
 Login to Jenkins using the below URL:
 http://:8080 [You can get the ec2-instance-public-ip-address from your AWS EC2 console page]
@@ -47,22 +48,27 @@ Note: If you are not interested in allowing All Traffic to your EC2 instance 1. 
 
 After you login to Jenkins, - Run the command to copy the Jenkins Admin Password - sudo cat /var/lib/jenkins/secrets/initialAdminPassword - Enter the Administrator password
 
-Screenshot 2023-02-01 at 10 56 25 AM
+![image](https://github.com/rnagargoje27/NewRepository/assets/138219884/1633e7f5-0279-4a6f-8abe-16b6928325ce)
+
 
 Click on Install suggested plugins
-Screenshot 2023-02-01 at 10 58 40 AM
+![image](https://github.com/rnagargoje27/NewRepository/assets/138219884/58b2ddb6-9b4d-44ad-9c89-a32c5d9ff7ab)
+
 
 Wait for the Jenkins to Install suggested plugins
 
-Screenshot 2023-02-01 at 10 59 31 AM
+![image](https://github.com/rnagargoje27/NewRepository/assets/138219884/55d70023-24ab-4266-8b45-98c9b5bb4175)
+
 
 Create First Admin User or Skip the step [If you want to use this Jenkins instance for future use-cases as well, better to create admin user]
 
-Screenshot 2023-02-01 at 11 02 09 AM
+![image](https://github.com/rnagargoje27/NewRepository/assets/138219884/02d94beb-21c2-4f78-bd70-a7d65d52e42b)
+
 
 Jenkins Installation is Successful. You can now starting using the Jenkins
 
-Screenshot 2023-02-01 at 11 14 13 AM
+![image](https://github.com/rnagargoje27/NewRepository/assets/138219884/f2ddef83-b06c-4169-a39c-345a7faed208)
+
 
 Install the Docker Pipeline plugin in Jenkins:
 Log in to Jenkins.
@@ -70,7 +76,8 @@ Go to Manage Jenkins > Manage Plugins.
 In the Available tab, search for "Docker Pipeline".
 Select the plugin and click the Install button.
 Restart Jenkins after the plugin is installed.
-Screenshot 2023-02-01 at 12 17 02 PM
+![image](https://github.com/rnagargoje27/NewRepository/assets/138219884/5aadc1a0-31b6-4128-93aa-da85ba43739c)
+
 
 Wait for the Jenkins to be restarted.
 

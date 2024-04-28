@@ -1,7 +1,7 @@
 Are you looking forward to learn Jenkins right from Zero(installation) to Hero(Build end to end pipelines)? then you are at the right place.
 
 Installation on EC2 Instance
-Install Jenkins, configure Docker as agent, set up cicd, deploy applications to k8s and much more.
+Install Jenkins, configure Docker as agent, set up cicd, deploy applications to k8s and much more. 
 
 AWS EC2 Instance
 Go to AWS Console
